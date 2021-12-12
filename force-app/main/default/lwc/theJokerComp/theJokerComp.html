@@ -7,6 +7,7 @@
 -->
 <template>
     <lightning-card  variant="Narrow"  title="Hello" icon-name="standard:account">
+        <lightning-button-icon variant="base" size="xx-small" icon-name="utility:refresh" alternative-text="refresh" onclick={refreshJoke}></lightning-button-icon>
         <p class="slds-p-horizontal_small">
             <lightning-textarea name="inputname" label="Question" placeholder="type here..." value={randomJokeQues} disabled></lightning-textarea>
 
